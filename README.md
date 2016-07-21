@@ -48,7 +48,7 @@ gx d
 
 ### 效果示意图
 
-![](http://images.bestswifter.com/1469081792.png)
+![](http://images.bestswifter.com/1469081792.pngddd)
 
 ### 配置
 
