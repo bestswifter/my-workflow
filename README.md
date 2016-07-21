@@ -54,16 +54,16 @@ gx d
 
 1. 首先需要安装两个第三方的 Python 库：
 
-```bash
-pip install pysocks
-pip install BeautifulSoup4
-```
+    ```bash
+    pip install pysocks
+    pip install BeautifulSoup4
+    ```
 
 2. 另外，确保你的 `/usr/bin/python` 可执行且版本为 2.x，否则把当前 python2 的可执行文件做一个软连接：
 
-```bash
-ln -s /path/to/python2 /usr/bin/pyhton
-```
+    ```bash
+    ln -s /path/to/python2 /usr/bin/pyhton
+    ```
 
 3. 最后。。。该脚本默认使用的是 shadowsocks 代理，如果使用 http 代理请自行参考注释修改源码。
 
