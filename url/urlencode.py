@@ -12,7 +12,7 @@ def urlencode(str):
 	>>> urlencode("你好")
 	'%E4%BD%A0%E5%A5%BD'
 	"""
-	return quote(str)
+	return quote(str).encode('utf8')
 
 if __name__ == '__main__':
 	if len(sys.argv) != 2:
